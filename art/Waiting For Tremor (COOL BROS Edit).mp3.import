@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Waiting For Tremor (COOL BROS Edit).mp3-5f73adc2a9c2e0a60c903377a98cf647.mp3str"
+
+[deps]
+
+source_file="res://art/Waiting For Tremor (COOL BROS Edit).mp3"
+dest_files=[ "res://.import/Waiting For Tremor (COOL BROS Edit).mp3-5f73adc2a9c2e0a60c903377a98cf647.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

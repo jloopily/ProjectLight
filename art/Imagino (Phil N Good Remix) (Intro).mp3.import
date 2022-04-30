@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Imagino (Phil N Good Remix) (Intro).mp3-4dbf1256ef80b2beb6314e23b7be5d28.mp3str"
+
+[deps]
+
+source_file="res://art/Imagino (Phil N Good Remix) (Intro).mp3"
+dest_files=[ "res://.import/Imagino (Phil N Good Remix) (Intro).mp3-4dbf1256ef80b2beb6314e23b7be5d28.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

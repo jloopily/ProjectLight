@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Команда.mp3-bd2399c3d3c83274c266456114304e4e.mp3str"
+
+[deps]
+
+source_file="res://art/Команда.mp3"
+dest_files=[ "res://.import/Команда.mp3-bd2399c3d3c83274c266456114304e4e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
