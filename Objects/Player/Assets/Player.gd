@@ -7,11 +7,13 @@ extends KinematicBody2D
 export var move_speed = 125
 
 var velocity := Vector2.ZERO
+var time
 
 export var jump_height = 50.0
 export var jump_time_to_peak = 0.35
 export var jump_time_to_descent = 0.3
 export var extra_jump_count = 1
+
 
 onready var jump_velocity : float = ((2.0 * jump_height) / jump_time_to_peak) * -1.0
 onready var jump_gravity : float = ((-2.0 * jump_height) / (jump_time_to_peak * jump_time_to_peak)) * -1.0
@@ -102,10 +104,13 @@ func _on_Buffer_Jump_timeout():
 func _on_Coyote_timeout():
 	on_ground = is_on_floor()
 
+
+
 func death():
 	Global.restart_game()
-	position.x = 47
-	position.y = 471
+	position.x = 125 
+	position.y = 125 
+
 func teleport(to: Vector2):
 	set_position(to)
 
