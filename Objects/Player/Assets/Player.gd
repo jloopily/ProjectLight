@@ -56,6 +56,13 @@ func _physics_process(delta):
 		snap_modify = 8
 	
 	velocity = move_and_slide_with_snap(velocity, snap_normal * snap_modify, Vector2.UP, true)
+	
+	#解决走路动画问题
+	if velocity.x != 0:
+		$Sprite.play()
+		$Sprite.animation = "default"
+	else:
+		$Sprite.stop()
 
 func get_gravity() -> float:
 	if Input.is_action_pressed("down"):
@@ -97,6 +104,8 @@ func get_input_velocity() -> float:
 		sprite.flip_h = false
 	
 	return horizontal
+
+
 
 func _on_Buffer_Jump_timeout():
 	buffer_jump = false
