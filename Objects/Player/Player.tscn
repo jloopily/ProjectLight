@@ -64,6 +64,7 @@ one_shot = true
 offset = Vector2( 0, -32 )
 current = true
 zoom = Vector2( 0.3, 0.3 )
+process_mode = 0
 drag_margin_h_enabled = true
 drag_margin_v_enabled = true
 smoothing_enabled = true
