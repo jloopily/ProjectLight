@@ -299,10 +299,6 @@ texture = ExtResource( 17 )
 [node name="Coin20" parent="Objects" instance=ExtResource( 3 )]
 position = Vector2( 2752, 309 )
 
-[node name="Player" parent="." instance=ExtResource( 4 )]
-position = Vector2( 44, 339 )
-scale = Vector2( 1.5, 1.5 )
-
 [node name="UI" type="CanvasLayer" parent="."]
 
 [node name="CoinCounter" parent="UI" instance=ExtResource( 5 )]
@@ -353,3 +349,7 @@ anims/Wobble = SubResource( 15 )
 stream = ExtResource( 19 )
 volume_db = -4.09
 autoplay = true
+
+[node name="Player" parent="." instance=ExtResource( 4 )]
+position = Vector2( 60, 398 )
+scale = Vector2( 1.5, 1.5 )

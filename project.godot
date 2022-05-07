@@ -10,11 +10,11 @@ config_version=4
 
 [application]
 
-config/name="2D Platformer Toolkit"
+config/name="深海猎人大冒险"
 run/main_scene="res://UI/Menu.tscn"
 boot_splash/image="res://UI/Black.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
-config/icon="res://UI/icon.png"
+config/icon="res://logo/团队logo_深海猎人.png"
 
 [autoload]
 

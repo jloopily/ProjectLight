@@ -7,7 +7,7 @@ func _ready():
 
 func _on_Button_pressed():
 # warning-ignore:return_value_discarded
-	get_tree().change_scene("res://World/World.tscn")
+	get_tree().change_scene("res://choicer/choicer.tscn")
 	Global.previous_conins = 0
 	Global.current_coins = 0
 

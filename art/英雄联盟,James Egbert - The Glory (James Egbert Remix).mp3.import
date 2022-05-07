@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/英雄联盟,James Egbert - The Glory (James Egbert Remix).mp3-019ee5555d3c2800e243dabd84d052fb.mp3str"
+
+[deps]
+
+source_file="res://art/英雄联盟,James Egbert - The Glory (James Egbert Remix).mp3"
+dest_files=[ "res://.import/英雄联盟,James Egbert - The Glory (James Egbert Remix).mp3-019ee5555d3c2800e243dabd84d052fb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

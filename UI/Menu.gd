@@ -14,4 +14,4 @@ func _on_Load_timeout():
 	Global.max_coins = 0
 	Global.current_coins = 0
 	Global.block_switch = true
-	get_tree().change_scene("res://World/World.tscn")
+	get_tree().change_scene("res://choicer/choicer.tscn")
