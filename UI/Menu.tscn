@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://UI/Transition/Transition.tscn" type="PackedScene" id=1]
 [ext_resource path="res://UI/Menu.gd" type="Script" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://Objects/DialogArea/Assets/Sign.png" type="Texture" id=11]
 [ext_resource path="res://Objects/DialogArea/DialogArea.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Fonts/zh-cn.ttf" type="DynamicFontData" id=13]
+[ext_resource path="res://Objects/Player-spec/Playerspec.tscn" type="PackedScene" id=14]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -226,10 +227,14 @@ text = "A game made by FUFU and Finn Pickart"
 texture = ExtResource( 11 )
 
 [node name="Player" parent="." instance=ExtResource( 5 )]
-position = Vector2( 296, 480 )
-scale = Vector2( 4, 4 )
+position = Vector2( 251, 476 )
+scale = Vector2( 5, 5 )
 move_speed = 500
 jump_height = 200.0
+
+[node name="Playerspec" parent="." instance=ExtResource( 14 )]
+position = Vector2( 863, 415 )
+scale = Vector2( 5, 5 )
 
 [node name="TextBox" parent="." instance=ExtResource( 10 )]
 visible = false
