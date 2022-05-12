@@ -233,8 +233,13 @@ move_speed = 500
 jump_height = 200.0
 
 [node name="Playerspec" parent="." instance=ExtResource( 14 )]
-position = Vector2( 863, 415 )
+position = Vector2( 861, 419 )
 scale = Vector2( 5, 5 )
+move_speed = 500
+jump_height = 200.0
+
+[node name="Sprite" parent="Playerspec" index="0"]
+flip_h = true
 
 [node name="TextBox" parent="." instance=ExtResource( 10 )]
 visible = false
@@ -283,3 +288,5 @@ start_closed = true
 
 [connection signal="timeout" from="Load" to="." method="_on_Load_timeout"]
 [connection signal="button_down" from="Play" to="." method="_on_Play_button_down"]
+
+[editable path="Playerspec"]
